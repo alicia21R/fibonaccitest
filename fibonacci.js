@@ -1,4 +1,4 @@
-module. exports = class Fibonacci {
+class Fibonacci {
     computeFibonacci(num){
         if (num < 0) {
             throw new Error('The Parameter must be positive!');
@@ -18,4 +18,9 @@ module. exports = class Fibonacci {
         }
     }
 }
+
+math = new Fibonacci();
+
+module.exports =Fibonacci;
+
 
